@@ -20,21 +20,36 @@ body {
   background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-#drag-1, #drag-2 {
+.drag {
 
   min-height: 8em;
 
   /* background-color: #29e; */
 
-
   -webkit-transform: translate(0px, 0px);
           transform: translate(0px, 0px);
 }
 
-.hero {
-	height: 40%;
+#spidey {
+	height: 38%;
 	width: auto;
 }
+
+#thor {
+  height: 50%;
+  width: auto;
+}
+
+#hulk {
+  height: 42%;
+ 	width: auto;
+}
+
+#cap {
+  height: 34%;
+ 	width: auto;
+}
+
 
 </style>
 
@@ -46,8 +61,10 @@ body {
 
 <body>
 <div id="outer">
-<img id="drag-1" class="draggable hero" src="spidey.png" />
-<img id="drag-2" class="draggable hero" src="thor.png" />
+<img id="spidey" class="draggable hero" src="spidey.png" />
+<img id="thor" class="draggable hero" src="thor.png" />
+<img id="hulk" class="draggable hero" src="hulk.png" />
+<img id="cap" class="draggable hero" src="cap.png" />
 </div>
 <script>
 	
